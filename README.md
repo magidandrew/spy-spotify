@@ -1,12 +1,7 @@
-[![Spytify Logo](https://user-images.githubusercontent.com/23088305/29906214-6daad21c-8de1-11e7-80f5-ef6791cc7825.png)](https://jwallet.github.io/spy-spotify/)
+### [How is this fork different?](#how-its-different)
+Spytify allows you to not redownload tracks that already exist in your library. Even though Spytify won't record, Spotify will continue playing the track which will result in wasted time. This fork skips the tracks on Spotify if they have already been recorded, ensuring that Spotify is always downloading music that doesn't exist in your library.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/s26ibv6ls9j56enr/branch/master?svg=true)](https://ci.appveyor.com/project/jwallet/spy-spotify/branch/master)
-[![AppVeyor tests](https://img.shields.io/appveyor/tests/jwallet/spy-spotify/master?compact_message)](https://ci.appveyor.com/project/jwallet/spy-spotify/branch/master/tests)
-[![Latest release](https://img.shields.io/github/tag/jwallet/spy-spotify.svg?label=version)](https://github.com/jwallet/spy-spotify/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/jwallet/spy-spotify/total.svg?color=yellow&label=downloads)](https://github.com/jwallet/spy-spotify/releases/latest)
-[![Sub Reddit](https://img.shields.io/reddit/subreddit-subscribers/spytify.svg?label=r%2Fspytify)](https://www.reddit.com/r/spytify)
-[![Donate](https://img.shields.io/badge/support-donate-ff69b4)](https://jwallet.github.io/spy-spotify/donate.html)
-[![Issuehunt](https://jwallet.github.io/spy-spotify/assets/images/isohunt_badge.svg)](https://issuehunt.io/r/jwallet/spy-spotify)
+### ...Spytify Description From Spytify Repo...
 
 Spytify is a Spotify recorder for Windows which records Spotify audio without recording or playing ads, ensuring no loss in sound quality. It automatically splits songs into separate tracks and records to MP3 with media metadata, meaning you can easily start enjoying your music offline.
 
