@@ -11,6 +11,7 @@ using System.IO.Abstractions;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Runtime.InteropServices;
 
 namespace EspionSpotify
 {
@@ -37,7 +38,10 @@ namespace EspionSpotify
         private readonly IFileSystem _fileSystem;
         private bool _canBeSkippedValidated = false;
         private CancellationTokenSource _cancellationTokenSource;
-        private bool _dataStillAvailable = false;
+        private bool _dataStillAvailable = false;    
+        [DllImport("user32.dll")]
+        public static extern void keybd_event(byte virtualKey, byte scanCode, uint flags, IntPtr extraInfo);
+
 
         public bool IsSkipTrackActive
         {
@@ -119,6 +123,8 @@ namespace EspionSpotify
                 _form.WriteIntoConsole(I18nKeys.LogTrackExists, _track.ToString());
                 await UpdateMediaTagsWhenSkippingTrack();
                 ForceStopRecording();
+                //skipping this track
+                keybd_event(0xB0, 0, 1, IntPtr.Zero);  
                 return true;
             }
 
