@@ -1,7 +1,9 @@
-### [How is this fork different?](#how-its-different)
+# [How is this fork different?](#how-its-different)
 Spytify allows you to not redownload tracks that already exist in your library. Even though Spytify won't record, Spotify will continue playing the track which will result in wasted time. This fork skips the tracks on Spotify if they have already been recorded, ensuring that Spotify is always downloading music that doesn't exist in your library.
 
-### ...Spytify Description From Spytify Repo...
+Modified binary can be downloaded from the [releases page](https://github.com/magidandrew/spy-spotify-with-skipping/releases). However, feel free to build from source from the `.sln` file. The diff from the original repository is only a few lines.
+
+### ...The Rest of the Spytify Description From Spytify Repo...
 
 Spytify is a Spotify recorder for Windows which records Spotify audio without recording or playing ads, ensuring no loss in sound quality. It automatically splits songs into separate tracks and records to MP3 with media metadata, meaning you can easily start enjoying your music offline.
 
@@ -66,16 +68,3 @@ Spytify runs on Windows only.
 - Spotify Desktop application.
 
 A **free Spotify account** will work, but Spotify restricts audio quality to 160 kbps. Having a Premium Spotify subscription will enable recording of up to 320 kbps audio.
-
-
-## Need a feature quicker?
-
-Spytify is supported by _IssueHunt_. [![Issuehunt](https://jwallet.github.io/spy-spotify/assets/images/isohunt_badge.svg)](https://issuehunt.io/r/jwallet/spy-spotify) 💰
-
-That means you can have your issue (feature/improvement) prioritized, just open an [feature request](https://github.com/jwallet/spy-spotify/issues/new/choose) on this repository and go to our IssueHunt page and fund [your issue](https://issuehunt.io/r/jwallet/spy-spotify?tab=idle) to promote it. When the bounty will be interesting enough for someone to work on it, he will then submit a Pull Request with his code on this repo and link it to the IssueHunt page. Once the code is approved by the repo owner (it should not break the app architecture or basic purpose, it should not make it harder to maintain either), it will then be merged, and the bounty will be rewarded to the PR author if the requested feature was covered by the PR otherwise the funders can be refunded or we will wait for another PR. See a past example [here](https://issuehunt.io/r/jwallet/spy-spotify/issues/282)
-
-## Support Spytify
-
-😃 If you like Spytify, you can help me out for a [couple of beers](https://jwallet.github.io/spy-spotify/donate.html) 🍺.
-
-## [Download](https://github.com/jwallet/spy-spotify/releases)
